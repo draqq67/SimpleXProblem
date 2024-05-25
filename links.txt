@@ -1,0 +1,9 @@
+Project Realised on github, links of the project
+
+Repository : https://github.com/draqq67/SimpleXProblem
+
+Documentation : https://github.com/draqq67/SimpleXProblem/blob/main/Readme.md
+
+Project : https://github.com/draqq67/SimpleXProblem/blob/main/project.ipynb
+
+
