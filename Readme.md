@@ -18,7 +18,7 @@
 
 ### The Data
 
-- data taken for 53 volunteers
+- data taken from 53 volunteers enrolled into an event
 - The data taken is from two differents csv that are called:
     - disponibility.csv, for each interval 1 means it can come, 0 means it can't: 
     ```
