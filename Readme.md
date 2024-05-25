@@ -1,5 +1,5 @@
 # Optimization class project
-
+**Realised by Zarnescu Dragos 321 AC**
 ## Problem
 
 - In my work in organization of events, I stumble across different problems where one of each is volunteer repartization
