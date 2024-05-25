@@ -82,6 +82,8 @@ $$
 5. Number of volunteers in a day has to be in the interval [ interval_demands<sub>d</sub> - 5 , interval_demands ]
 $$ interval\_demands[d] - margin \leq \sum_{i=1}^{m} \sum_{j=1}^{n} x_{i,j,d} \leq interval\_demands[d] \text{ for any }{d}
 $$
+![alt text](https://github.com/draqq67/SimpleXProblem/blob/main/MathematicalExplanation.jpg?raw=true)
+
 
 
 ## Code Solution
