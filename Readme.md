@@ -52,6 +52,7 @@
 **Parameters:**
 - _prefences<sub>i,j</sub>_ : Preference score of volunteer ( i ) when assigned to task (j).
 - _demands<sub>j</sub>_ : Demand for task ( j ) across all intervals.
+- _interval_demands<sub>d</sub>_ : Demand of volunteer in an interval 
 - _interval_preferences<sub>i,d</sub>_ : Preference of volunteer \( i \) for interval \( d \).
 
 #### Objective Function
@@ -78,6 +79,10 @@ $$
 $$
 \sum_{j=1}^{n} x_{i,j,d} \leq 2 \quad \text{for all } i
 $$
+5. Number of volunteers in a day has to be in the interval [ interval_demands<sub>d</sub> - 5 , interval_demands ]
+$$ interval\_demands[d] - margin \leq \sum_{i=1}^{m} \sum_{j=1}^{n} x_{i,j,d} \leq interval\_demands[d] \text{ for any }{d}
+$$
+
 
 ## Code Solution
 - Presented in project.ipynb, data extracted from the csvs
